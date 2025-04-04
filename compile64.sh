@@ -1,7 +1,7 @@
 SOURCE_DIR="figma"           
 OUTPUT_DIR="figma/obj"      
 GAS_FILES=$(find "$SOURCE_DIR" -type f -name "*.S")   
-NAAS_FILES=$(find "$SOURCE_DIR" -type f -name "*.asm")   
+NASM_FILES=$(find "$SOURCE_DIR" -type f -name "*.asm")   
 C_FILES=$(find "$SOURCE_DIR" -type f -name "*.c")         
 mkdir -p "$OUTPUT_DIR"
 
